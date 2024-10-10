@@ -90,7 +90,7 @@ imagesList.addEventListener("click", (e) => {
   if (e.target === imagesList) {
     return;
   }
-  console.log(e.target.dataset.source);
+
   const element = instance.element();
   const img = element.querySelector("img");
   img.src = e.target.dataset.source;
