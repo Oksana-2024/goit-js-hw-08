@@ -1,8 +1,7 @@
 body {
   display: flex;
   justify-content: center;
-  box-sizing: border-box;
-}
+  }
 
 .gallery-image {
   display: block;
@@ -30,8 +29,3 @@ a {
     max-width: 1440px;
 }
 
-div  {
-  margin: 0;
-  padding: 28px 164px;
-  width: 1440px;
-}
